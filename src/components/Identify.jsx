@@ -36,7 +36,7 @@ function Identify() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className=""
       >
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-3 text-center mb-3">
+      <div className="grid grid-cols-2 mt-[9px] md:grid-cols-5 gap-3 text-center mb-3">
         <div
           className=" bg-white/50 backdrop-blur-md
 border           rounded-2xl shadow-md shadow-[rgba(0,0,0,0.05)] shadow-lg:shadow-[rgba(0,0,0,0.08)]

@@ -1,6 +1,7 @@
 import React from "react";
 import { TrendingUp } from "lucide-react";
 import Details from "../components/config/details.json";
+import { FaMoneyBillWave } from "react-icons/fa";
 
 export default function Priorities() {
   return (
@@ -41,13 +42,21 @@ export default function Priorities() {
             {Details.priorities[2].context}{" "}
           </p>
         </div>
-
       </div>
+      <div className=" bg-white/40 mt-2 w-full flex border-r-4 text-right border-green-800 shadow-md mb-1 pt-1 p-2 ">
         <p className="md:leading-loose lg:leading-loose pl-5 pr-5 font-modam text-right w-full  text-base  ">
+          <strong className="text-green-900 w-full flex gap-2 text-right">
+            <FaMoneyBillWave size={20} />
+            ریسک سرمایه‌گذاری:
+          </strong>
           محله دهخدا با پتانسیل نوسازی، رشد ساخت‌وساز و دسترسی مناسب شهری، یکی
-          از مناطق با جذابیت بالا و <strong className="text-green-900">ریسک پایین برای سرمایه‌گذاری ملکی</strong> به‌حساب
-          می‌آید.
+          از مناطق با جذابیت بالا و{" "}
+          <strong className="text-green-900">
+            ریسک پایین برای سرمایه‌گذاری ملکی
+          </strong>{" "}
+          به‌حساب می‌آید.
         </p>
+      </div>
     </div>
   );
 }
